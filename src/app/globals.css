@@ -31,3 +31,20 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components{
+  .open{
+    height: 100%;
+    transition: height 2s ease;
+  }
+  .close{
+    height: 0px;
+    transition: height 2s ease;
+  }
+  .active{
+    background-color: #000;
+  }
+  .inactive{
+    background-color: #475569;
+  }
+}
