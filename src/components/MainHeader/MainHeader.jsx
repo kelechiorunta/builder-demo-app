@@ -8,7 +8,7 @@ import { FaHamburger } from 'react-icons/fa'
 
 export default function MainHeader() {
   return (
-    <div className='w-full flex items-center gap-x-4 p-8 sticky-0 z-10 justify-between bg-white text-white border xs:max-sm:p-4'>
+    <div className='w-full flex items-center gap-x-4 p-8 sticky top-0 z-20 justify-between bg-white text-white border xs:max-sm:p-4'>
         <Image src={logo} alt='logo' width={100} height={100}/>
         <nav className='flex  gap-x-8 items-center justify-between xs:max-[590px]:hidden'>
             <Link  className='rounded-[24px] px-4 py-2 bg-[#cfe2f4] text-[#418bd4]'  href={'/'}>Flight</Link>
